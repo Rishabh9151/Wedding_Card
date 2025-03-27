@@ -788,27 +788,27 @@
                 document.querySelector('.groom-side-event').style.display = 'none';
             } else if (option === 'groom') {
                 // Add Sangeet & Reception event for groom's side
-                const eventContainer = document.querySelector('.event-container');
-                const sangeetEvent = `
-                    <div class="event-card">
-                        <div class="p-4 glassmorphism shine" style="border-radius: 4px; background-color: rgba(255, 182, 193, 0.3);">
-                            <div class="text-center mb-4">
-                                <img class="img-fluid" src="img/sangeet.jpg" alt="" style="max-width: 150px;">
-                            </div>
-                            <div class="text-center">
-                                <h4 class="mb-2" style="color: #8B0000;">Sangeet & Reception</h4>
-                                <p class="text-uppercase mb-2" style="color: #A52A2A;">08 Dec 2024 | 05:00 PM | Dhani Resort, Khatima</p>
-                                <a href="https://www.google.com/maps/search/?api=1&query=Dhani+Resort+Khatima" 
-                                   target="_blank" 
-                                   class="btn mb-3" 
-                                   style="background-color: #8B0000; color: #FFFFFF; border: none;">
-                                    <i class="fas fa-map-marker-alt mr-2"></i>See the Venue
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                `;
-                eventContainer.insertAdjacentHTML('beforeend', sangeetEvent);
+                // const eventContainer = document.querySelector('.event-container');
+                // const sangeetEvent = `
+                //     <div class="event-card">
+                //         <div class="p-4 glassmorphism shine" style="border-radius: 4px; background-color: rgba(255, 182, 193, 0.3);">
+                //             <div class="text-center mb-4">
+                //                 <img class="img-fluid" src="img/sangeet.jpg" alt="" style="max-width: 150px;">
+                //             </div>
+                //             <div class="text-center">
+                //                 <h4 class="mb-2" style="color: #8B0000;">Sangeet & Reception</h4>
+                //                 <p class="text-uppercase mb-2" style="color: #A52A2A;">08 Dec 2024 | 05:00 PM | Dhani Resort, Khatima</p>
+                //                 <a href="https://www.google.com/maps/search/?api=1&query=Dhani+Resort+Khatima" 
+                //                    target="_blank" 
+                //                    class="btn mb-3" 
+                //                    style="background-color: #8B0000; color: #FFFFFF; border: none;">
+                //                     <i class="fas fa-map-marker-alt mr-2"></i>See the Venue
+                //                 </a>
+                //             </div>
+                //         </div>
+                //     </div>
+                // `;
+                // eventContainer.insertAdjacentHTML('beforeend', sangeetEvent);
                 // Show only groom's side contact details
                 document.querySelector('.groom-contact').style.display = 'block';
                 document.querySelector('.bride-contact').style.display = 'none';
